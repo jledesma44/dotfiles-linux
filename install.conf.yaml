@@ -6,19 +6,15 @@
 
 - create:
     - ~/Development
-    - ~/.config
 
 - link:
     ~/.zshrc:
     ~/.zshenv:
+    ~/.bashrc:
     ~/.gitconfig:
     ~/.tmux.conf:
-    ~/.config/karabiner:
     ~/.config/bat:
-    ~/.config/Devstack44nvim:
-    ~/.config/AstroNvim:
-    ~/.config/NvChad:
-    ~/.config/Lazyvim:
+    ~/.config/nvim:
     ~/.config/kitty:
     ~/Bin:
 
@@ -27,11 +23,5 @@
       stdout: true
       stderr: true
     - command: ./setup_tpm.zsh
-      stdout: true
-      stderr: true
-    - command: ./setup_homebrew.zsh
-      stdout: true
-      stderr: true
-    - command: ./macos_prefs.zsh
       stdout: true
       stderr: true

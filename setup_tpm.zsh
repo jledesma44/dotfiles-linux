@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# Script to check for and install tmux plugin manager (TPM) on macOS
+# Script to check for and install tmux plugin manager (TPM) on Linux
 
 # TPM installation directory
 TPM_DIR="$HOME/.tmux/plugins/tpm"

@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jaimeledesma/.oh-my-zsh"
+export ZSH="/home/jledesma44/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -98,7 +98,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 # Variables syntax highlighting for man pages =================================
-export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options =========================================================
 
@@ -165,53 +164,14 @@ alias gp="git push"
 alias gu="git pull"
 
 
-#Alias for brew bundle =================================
-
-alias bbd="brew bundle dump --force --describe"
-
-#Alias for Macos Updates and verions=======================
-
-alias macos="sw_vers"
-alias updates="softwareupdate -l"
-alias upgradeall="sudo softwareupdate -i -a --restart"
-
-
-
-#Obsidian Vault-------------
-alias oo="$HOME/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Devstack44"
-
-
-# Neovim Distribution switcher ===============================================
-
-alias nvim-lazy="NVIM_APPNAME=LazyVim nvim"
-alias nvim-devstack44="NVIM_APPNAME=Devstack44nvim nvim"
-alias nvim-chad="NVIM_APPNAME=NvChad nvim"
-alias nvim-astro="NVIM_APPNAME=AstroNvim nvim"
-
-function nvims() {
-  items=("Lazyvim" "Devstack44nvim" "default" "NvChad" "AstroNvim")
-  config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)
-  if [[ -z $config ]]; then
-    echo "Nothing selected"
-    return 0
-  elif [[ $config == "default" ]]; then
-    config=""
-  fi
-  NVIM_APPNAME=$config nvim $@
-}
-
-bindkey -s ^n "nvims\n"
-
-alias vim="nvims"
-alias nvim="nvims"
 
 
 # Prompt settings========================================================== 
 
-PROMPT='
-%{$fg_bold[blue]%}$USER@%{$fg[green]%}%m%}%{$fg_bold[cyan]%} %c $(git_prompt_info)%{$reset_color%} %L %# '
-
-RPROMPT='%*'
+# PROMPT='
+# %{$fg_bold[blue]%}$USER@%{$fg[green]%}%m%}%{$fg_bold[cyan]%} %c $(git_prompt_info)%{$reset_color%} %L %# '
+#
+# RPROMPT='%*'
 
 
 
@@ -232,19 +192,7 @@ fastfetch
 
 figlet Devstack44
 
-# NVM node version manager export path =====================================================================
-source $(brew --prefix nvm)/nvm.sh
-
-
 # Set up fzf keybindings and fuzzy completions
 eval "$(fzf --zsh)"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/jaimeledesma/.cache/lm-studio/bin"
-
-export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
 
 export EDITOR=vim

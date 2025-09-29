@@ -15,7 +15,7 @@
 	editor = nvim -f
 
 
-[url "git@github.com:jledesma44/dotfiles-MacOS.git"]
+[url "git@github.com:jledesma44/dotfiles-Linux.git"]
   insteadOf = "dotfiles:"
 
 
