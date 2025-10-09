@@ -25,3 +25,7 @@
     - command: ./setup_tpm.zsh
       stdout: true
       stderr: true
+    - command: ./setup-github-ssh.zsh
+      stdout: true
+      stderr: true
+      stdin: true
