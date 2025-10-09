@@ -1,4 +1,3 @@
-
 #!/bin/zsh
 
 # GitHub SSH Key Setup Script for macOS

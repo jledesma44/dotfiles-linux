@@ -6,6 +6,11 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
+
+echo "######################################################################################"
+echo "                ${YELLOW}!!  OHMYZSH SETUP !!${NC}                                   "
+echo "######################################################################################"
+
 echo -e "${BLUE}Checking for Oh My Zsh installation...${NC}"
 
 # Check if Oh My Zsh is installed by looking for the .oh-my-zsh directory

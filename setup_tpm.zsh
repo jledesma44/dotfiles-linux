@@ -2,6 +2,16 @@
 
 # Script to check for and install tmux plugin manager (TPM) on Linux
 
+# Colors for output
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
+
+echo "######################################################################################"
+echo "                  ${YELLOW}!! TMUX TPM SETUP !!${NC}                                 "
+echo "######################################################################################"
+
 # TPM installation directory
 TPM_DIR="$HOME/.tmux/plugins/tpm"
 
