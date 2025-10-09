@@ -77,7 +77,6 @@ if [ ! -f "$ssh_config" ]; then
     chmod 600 "$ssh_config"
 fi
 
-# Step 5: Add configuration to use macOS keychain
 echo ""
 echo "Updating SSH config..."
 
@@ -115,16 +114,16 @@ echo "==================================="
 echo ""
 
 # Copy to clipboard if pbcopy is available
-if command -v pbcopy &> /dev/null; then
-    cat "${key_path}.pub" | pbcopy
+if command -v xclip &> /dev/null; then
+    cat "${key_path}.pub" | xclip
     echo "✓ Public key copied to clipboard!"
     echo ""
 fi
 
 # Step 7: Instructions for adding key to GitHub
-echo "==================================="
-echo "NEXT STEPS:"
-echo "==================================="
+echo "========================================================"
+echo "${GREEN}NEXT STEPS: Instructions to add pub key to github${NC}"
+echo "========================================================"
 echo ""
 echo "1. Add your SSH key to GitHub:"
 echo "   - Go to: https://github.com/settings/keys"
@@ -140,7 +139,7 @@ echo "3. You should see: 'Hi <username>! You've successfully authenticated...'"
 echo ""
 
 # Step 8: Change dotfiles repo from HTTPS to SSH
-echo -n "Do you want to convert your current git repository from HTTPS to SSH? (y/n): "
+echo -n "${GREEN}Do you want to convert your current git repository from HTTPS to SSH? (y/n): ${NC}"
 read convert_repo
 
 if [[ "$convert_repo" =~ ^[Yy]$ ]]; then
