@@ -19,6 +19,9 @@
     ~/Bin:
 
 - shell:
+    - command: ./packages_install_update.zsh
+      stdout: true
+      stderr: true
     - command: ./setup_ohmyzsh.zsh
       stdout: true
       stderr: true
