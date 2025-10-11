@@ -22,6 +22,7 @@
     - command: ./packages_install_update.zsh
       stdout: true
       stderr: true
+      stdin: true
     - command: ./setup_ohmyzsh.zsh
       stdout: true
       stderr: true
