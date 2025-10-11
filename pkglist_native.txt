@@ -28,6 +28,7 @@ fcitx5-gtk
 fcitx5-qt
 fd
 ffmpegthumbnailer
+figlet
 firefox
 fontconfig
 fzf
@@ -55,6 +56,7 @@ intel-ucode
 iwd
 jq
 kdenlive
+kitty
 kvantum-qt5
 lazydocker
 lazygit
@@ -113,6 +115,7 @@ slurp
 snapper
 spotify
 starship
+superfile
 sushi
 swaybg
 swayosd
@@ -141,6 +144,7 @@ wl-clip-persist
 wl-clipboard
 wl-screenrec
 woff2-font-awesome
+xcape
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xmlstarlet
