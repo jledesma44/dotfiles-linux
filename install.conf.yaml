@@ -16,6 +16,7 @@
     ~/.config/bat:
     ~/.config/nvim:
     ~/.config/kitty:
+    ~/.config/hypr:
     ~/Bin:
 
 - shell:
