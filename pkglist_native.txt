@@ -57,6 +57,7 @@ iwd
 jq
 kdenlive
 kitty
+kmonad
 kvantum-qt5
 lazydocker
 lazygit
@@ -144,7 +145,6 @@ wl-clip-persist
 wl-clipboard
 wl-screenrec
 woff2-font-awesome
-xcape
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xmlstarlet
