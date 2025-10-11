@@ -167,7 +167,7 @@ alias gu="git pull"
 
 #Alias for adding new packages to list =================================
 
-alias pd="pacman -Qqe > packages_native.txt"
+alias pnd="pacman -Qqe > pkglist_native.txt"
 
 
 # Prompt settings========================================================== 
