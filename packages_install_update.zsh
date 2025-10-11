@@ -17,6 +17,6 @@ echo "##########################################################################
 sudo pacman -Syu
 
 #Install/Updates packages from a list.
-sudo pacman -S - < pkglist.txt
+sudo pacman -S - < pkglist_native.txt
 
 echo "${GREEN}All packages have been installed and or updated${NC}"
