@@ -17,8 +17,8 @@ TPM_DIR="$HOME/.tmux/plugins/tpm"
 
 # Check if TPM is already installed
 if [ -d "$TPM_DIR" ]; then
-    echo "✅ tmux plugin manager (TPM) is already installed at $TPM_DIR"
-    echo "🔄 Skipping installation"
+    echo "✅ ${GREEN}tmux plugin manager (TPM) is already installed at $TPM_DIR${NC}"
+    echo "🔄 ${GREEN}Skipping installation${NC}"
     exit 0
 fi
 
