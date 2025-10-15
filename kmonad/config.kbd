@@ -1,18 +1,18 @@
 ;;Macbook 12
-;;(defcfg
-  ;;input (device-file "/dev/input/by-path/pci-0000:00:1e.3-platform-pxa2xx-spi.4-cs-00-event-kbd")
-  ;;output (uinput-sink "My Kmonad Keyboard")
-  ;;fallthrough true
-  ;;allow-cmd true
-;;)
-
-;;Satechi slim-x1
 (defcfg
-  input (device-file "/dev/input/by-path/bluetooth-00:28:F8:38:C9:6B-event-kbd")
-  output (uinput-sink "Slim-x1 Keyboard")
+  input (device-file "/dev/input/by-path/pci-0000:00:1e.3-platform-pxa2xx-spi.4-cs-00-event-kbd")
+  output (uinput-sink "My Kmonad Keyboard")
   fallthrough true
   allow-cmd true
 )
+
+;;Satechi slim-x1
+;;(defcfg
+  ;;input (device-file "/dev/input/by-path/bluetooth-00:28:F8:38:C9:6B-event-kbd")
+  ;;output (uinput-sink "Slim-x1 Keyboard")
+  ;;fallthrough true
+  ;;allow-cmd true
+;;)
 
 (defsrc
   caps
