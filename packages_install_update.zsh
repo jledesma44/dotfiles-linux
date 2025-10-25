@@ -19,4 +19,7 @@ sudo pacman -Syu
 #Install/Updates packages from a list.
 sudo pacman -S - < pkglist_native.txt
 
+#kmonad - change file permissions to run as user when using exec-once command
+sudo chmod u+s /usr/bin/kmonad
+
 echo "${GREEN}All packages have been installed and or updated${NC}"
