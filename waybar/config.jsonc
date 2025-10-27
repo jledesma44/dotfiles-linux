@@ -9,6 +9,7 @@
   "modules-right": [
     "group/tray-expander",
     "bluetooth",
+    "temperature",
     "network",
     "pulseaudio",
     "cpu",
@@ -28,6 +29,7 @@
       "7": "7",
       "8": "8",
       "9": "9",
+      "10": "10",
       "active": "󱓻"
     },
     "persistent-workspaces": {
@@ -40,12 +42,13 @@
       "7": [],
       "8": [],
       "9": [],
-      "0": []
+      "10": []
     }
   },
   "custom/omarchy": {
     "format": "<span font='omarchy'>\ue900</span>",
     "on-click": "omarchy-menu",
+    "on-click-right": "omarchy-launch-terminal",
     "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
   },
   "custom/update": {
@@ -117,6 +120,14 @@
     "format-icons": {
       "default": ["", "", ""]
     }
+  },
+  "temperature": {
+    "hwmon-path": "/sys/class/hwmon/hwmon4/temp1_input", // Replace hwmonX with your path
+    "critical-threshold": 80,
+    "format": " {temperatureC}°C",
+    "format-critical": " {temperatureC}°C (CRITICAL!)",
+    "tooltip": true,
+    "interval": 10
   },
   "group/tray-expander": {
     "orientation": "inherit",
