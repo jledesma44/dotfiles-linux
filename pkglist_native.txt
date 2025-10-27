@@ -35,6 +35,7 @@ elephant-todo
 elephant-unicode
 elephant-websearch
 evince
+expac
 eza
 fastfetch
 fcitx5
@@ -70,6 +71,7 @@ impala
 imv
 inetutils
 intel-ucode
+inxi
 iwd
 jq
 kdenlive
@@ -89,7 +91,7 @@ limine-snapper-sync
 linux
 linux-firmware
 llvm
-localsend-bin
+localsend
 luarocks
 macbook12-spi-driver-dkms
 mako
@@ -138,7 +140,9 @@ superfile
 sushi
 swaybg
 swayosd
+syncthing
 system-config-printer
+tailscale
 tldr
 tmux
 tree-sitter-cli
@@ -154,7 +158,7 @@ uwsm
 visual-studio-code-bin
 walker
 waybar
-wayfreeze-git
+wayfreeze
 whois
 wireless-regdb
 wiremix
