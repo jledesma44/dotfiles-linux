@@ -36,3 +36,18 @@
       stdout: true
       stderr: true
       stdin: true
+    - command: ./tailscale-services.zsh
+      stdout: true
+      stderr: true
+      stdin: true
+    - command: ./syncthing-services.zsh
+      stdout: true
+      stderr: true
+      stdin: true
+
+
+
+
+
+
+
