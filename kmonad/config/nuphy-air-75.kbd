@@ -38,7 +38,7 @@
   kit (cmd-button "sh -c 'hyprctl clients | grep -q \"class: kitty\" && hyprctl dispatch workspace 5 || (hyprctl dispatch exec \"[workspace 5 silent] kitty\" && hyprctl dispatch workspace 5)'")
   pas (cmd-button "sh -c 'hyprctl clients | grep -q \"class: 1password\" && hyprctl dispatch workspace 6 || (hyprctl dispatch exec \"[workspace 6 silent] 1password\" && hyprctl dispatch workspace 6)'")
   gh (cmd-button "sh -c 'hyprctl clients | grep -q \"class: chrome-github.com__-Default\" && hyprctl dispatch workspace 7 || (hyprctl dispatch exec \"[workspace 7 silent] chromium --app=\"https://github.com\"\" && hyprctl dispatch workspace 7)'")
-  cd (cmd-button "sh -c 'hyprctl clients | grep -q \"class: chrome-claude.ai__-Default\" && hyprctl dispatch workspace 8 || (hyprctl dispatch exec \"[workspace 8 silent] chromium --app=\"https://claude.ai\"\" && hyprctl dispatch workspace 7)'")
+  cd (cmd-button "sh -c 'hyprctl clients | grep -q \"class: chrome-claude.ai__-Default\" && hyprctl dispatch workspace 8 || (hyprctl dispatch exec \"[workspace 8 silent] chromium --app=\"https://claude.ai\"\" && hyprctl dispatch workspace 8)'")
 )
 
 (deflayer base
