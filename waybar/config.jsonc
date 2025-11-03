@@ -123,7 +123,7 @@
   },
   "temperature": {
     //macbook12
-    "hwmon-path": "/sys/class/hwmon/hwmon4/temp1_input", // Replace hwmonX with your path
+    //"hwmon-path": "/sys/class/hwmon/hwmon4/temp1_input", // Replace hwmonX with your path
 
     //OmarchyDesk
     "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input",
