@@ -98,6 +98,7 @@ mako
 man-db
 mariadb-libs
 mise
+mosh
 mpv
 nautilus
 neovim
