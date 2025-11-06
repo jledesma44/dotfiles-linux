@@ -45,6 +45,7 @@ fd
 ffmpegthumbnailer
 figlet
 firefox
+firefox-developer-edition
 fontconfig
 fzf
 git
