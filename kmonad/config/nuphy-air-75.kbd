@@ -39,7 +39,9 @@
   pas (cmd-button "sh -c 'hyprctl clients | grep -q \"class: 1password\" && hyprctl dispatch workspace 6 || (hyprctl dispatch exec \"[workspace 6 silent] 1password\" && hyprctl dispatch workspace 6)'")
   gh (cmd-button "sh -c 'hyprctl clients | grep -q \"class: chrome-github.com__-Default\" && hyprctl dispatch workspace 7 || (hyprctl dispatch exec \"[workspace 7 silent] chromium --app=\"https://github.com\"\" && hyprctl dispatch workspace 7)'")
   cd (cmd-button "sh -c 'hyprctl clients | grep -q \"class: chrome-claude.ai__-Default\" && hyprctl dispatch workspace 8 || (hyprctl dispatch exec \"[workspace 8 silent] chromium --app=\"https://claude.ai\"\" && hyprctl dispatch workspace 8)'")
+  fd (cmd-button "sh -c 'hyprctl clients | grep -q \"class: firefox-developer-edition\" && hyprctl dispatch workspace 9 || (hyprctl dispatch exec \"[workspace 9 silent] firefox-developer-edition\" && hyprctl dispatch workspace 9)'")
 )
+
 
 (deflayer base
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
@@ -63,7 +65,7 @@
   _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    @cd  _    @pas _    _    _
-  _    _    @spy _    @ff  @gh  _    _    @kit _    _    _    _
+  _    _    @spy @fd  @ff  @gh  _    _    @kit _    _    _    _
   _    _    _    @chr @vs  _    _    _    _    _    _    _
   _    _    _    _              _              _    _    _    _    _    _
 )
