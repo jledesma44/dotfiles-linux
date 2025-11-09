@@ -35,6 +35,7 @@ elephant-todo
 elephant-unicode
 elephant-websearch
 evince
+evtest
 expac
 eza
 fastfetch
@@ -63,7 +64,7 @@ gvfs-nfs
 gvfs-smb
 hypridle
 hyprland
-hyprland-qtutils
+hyprland-guiutils
 hyprlock
 hyprpicker
 hyprsunset
@@ -91,6 +92,7 @@ limine-mkinitcpio-hook
 limine-snapper-sync
 linux
 linux-firmware
+linux-headers
 llvm
 localsend
 luarocks
@@ -99,7 +101,6 @@ mako
 man-db
 mariadb-libs
 mise
-mosh
 mpv
 nautilus
 neovim
@@ -108,10 +109,12 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
+npm
 nss-mdns
 obs-studio
 obsidian
 omarchy-chromium
+omarchy-keyring
 omarchy-nvim
 pamixer
 pinta
@@ -136,6 +139,7 @@ sddm
 signal-desktop
 slurp
 snapper
+socat
 spotify
 starship
 superfile
@@ -161,6 +165,7 @@ visual-studio-code-bin
 walker
 waybar
 wayfreeze
+wget
 whois
 wireless-regdb
 wiremix
