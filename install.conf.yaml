@@ -6,6 +6,18 @@
 
 - create:
     - ~/Development
+    - ~/Writing
+
+- shell:
+    - command: ./setup-zsh.sh
+      stdout: true
+      stderr: true
+    - command: ./setup_ohmyzsh.zsh
+      stdout: true
+      stderr: true
+    - command: ./remove_old_configs.zsh
+      stdout: true
+      stderr: true
 
 - link:
     ~/.zshrc:
@@ -26,9 +38,6 @@
       stdout: true
       stderr: true
       stdin: true
-    - command: ./setup_ohmyzsh.zsh
-      stdout: true
-      stderr: true
     - command: ./setup_tpm.zsh
       stdout: true
       stderr: true
@@ -44,10 +53,3 @@
       stdout: true
       stderr: true
       stdin: true
-
-
-
-
-
-
-
