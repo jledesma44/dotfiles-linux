@@ -40,6 +40,7 @@
   gh (cmd-button "sh -c 'hyprctl clients | grep -q \"class: chrome-github.com__-Default\" && hyprctl dispatch workspace 7 || (hyprctl dispatch exec \"[workspace 7 silent] chromium --app=\"https://github.com\"\" && hyprctl dispatch workspace 7)'")
   cd (cmd-button "sh -c 'hyprctl clients | grep -q \"class: chrome-claude.ai__-Default\" && hyprctl dispatch workspace 8 || (hyprctl dispatch exec \"[workspace 8 silent] chromium --app=\"https://claude.ai\"\" && hyprctl dispatch workspace 8)'")
   fd (cmd-button "sh -c 'hyprctl clients | grep -q \"class: firefox-developer-edition\" && hyprctl dispatch workspace 9 || (hyprctl dispatch exec \"[workspace 9 silent] firefox-developer-edition\" && hyprctl dispatch workspace 9)'")
+  fg (cmd-button "sh -c 'hyprctl clients | grep -q \"class: chrome-figma.com__-Default\" && hyprctl dispatch workspace 10 || (hyprctl dispatch exec \"[workspace 10 silent] chromium --app=\"https://figma.com\"\" && hyprctl dispatch workspace 10)'")
 )
 
 
@@ -65,7 +66,7 @@
   _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    @cd  _    @pas _    _    _
-  _    _    @spy @fd  @ff  @gh  _    _    @kit _    _    _    _
+  _    _    @spy @fd  @ff  @gh  @fg  _    @kit _    _    _    _
   _    _    _    @chr @vs  _    _    _    _    _    _    _
   _    _    _    _              _              _    _    _    _    _    _
 )
