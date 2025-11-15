@@ -169,6 +169,10 @@ alias gu="git pull"
 
 alias pnd="pacman -Qqe > pkglist_native.txt"
 
+#Alias for running command for kmonad to start Slim-X1 keyboard =================================
+
+alias slim="nohup kmonad ~/.config/kmonad/config/Slim-X1.kbd &"
+
 
 # Prompt settings========================================================== 
 
