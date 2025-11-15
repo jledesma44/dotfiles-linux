@@ -7,7 +7,9 @@ base
 base-devel
 bash-completion
 bat
+bat-extras
 blueberry
+bluez-utils
 brightnessctl
 btop
 btrfs-progs
@@ -92,7 +94,6 @@ limine-mkinitcpio-hook
 limine-snapper-sync
 linux
 linux-firmware
-linux-headers
 llvm
 localsend
 luarocks
@@ -101,6 +102,7 @@ mako
 man-db
 mariadb-libs
 mise
+mosh
 mpv
 nautilus
 neovim
@@ -116,6 +118,7 @@ obsidian
 omarchy-chromium
 omarchy-keyring
 omarchy-nvim
+omarchy-walker
 pamixer
 pinta
 pipewire
@@ -139,7 +142,6 @@ sddm
 signal-desktop
 slurp
 snapper
-socat
 spotify
 starship
 superfile
@@ -165,7 +167,6 @@ visual-studio-code-bin
 walker
 waybar
 wayfreeze
-wget
 whois
 wireless-regdb
 wiremix
@@ -174,6 +175,7 @@ wl-clipboard
 woff2-font-awesome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
+xdg-terminal-exec
 xmlstarlet
 xournalpp
 yaru-icon-theme
