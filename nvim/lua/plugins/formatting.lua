@@ -9,6 +9,7 @@ return {
       json = { "prettierd", "prettier" },
       css = { "prettierd", "prettier" },
       html = { "prettierd", "prettier" },
+      bash = { "prettierd", "prettier" },
     },
     -- format_on_save = {
     --   timeout_ms = 500,
