@@ -96,9 +96,6 @@ EOF
     echo "✓ Added GitHub configuration to ~/.ssh/config"
 fi
 
-# Add key to ssh-agent with keychain
-#ssh-add --apple-use-keychain "$key_path"
-
 echo ""
 echo "✓ SSH key added to ssh-agent!"
 echo ""
