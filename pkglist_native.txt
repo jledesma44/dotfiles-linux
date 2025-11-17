@@ -50,6 +50,7 @@ figlet
 firefox
 firefox-developer-edition
 fontconfig
+fwupd
 fzf
 git
 github-cli
@@ -94,6 +95,7 @@ limine-mkinitcpio-hook
 limine-snapper-sync
 linux
 linux-firmware
+linux-headers
 llvm
 localsend
 luarocks
@@ -142,6 +144,7 @@ sddm
 signal-desktop
 slurp
 snapper
+socat
 spotify
 starship
 superfile
@@ -167,6 +170,7 @@ visual-studio-code-bin
 walker
 waybar
 wayfreeze
+wget
 whois
 wireless-regdb
 wiremix
