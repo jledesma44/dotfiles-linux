@@ -16,9 +16,6 @@
     - command: ./setup_ohmyzsh.zsh
       stdout: true
       stderr: true
-    # - command: ./remove_old_configs.zsh
-    #   stdout: true
-    #   stderr: true
 
 - link:
     ~/.zshrc:
