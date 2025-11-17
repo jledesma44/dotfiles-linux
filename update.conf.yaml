@@ -4,15 +4,6 @@
 
 - clean: ["~"]
 
-- shell:
-    - command: ./setup-zsh.sh
-      stdout: true
-      stderr: true
-      stdin: true
-    - command: ./setup_ohmyzsh.zsh
-      stdout: true
-      stderr: true
-
 - link:
     ~/.zshrc:
     ~/.zshenv:
