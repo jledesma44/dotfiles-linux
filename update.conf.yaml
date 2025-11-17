@@ -1,0 +1,34 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ["~"]
+
+- shell:
+    - command: ./setup-zsh.sh
+      stdout: true
+      stderr: true
+      stdin: true
+    - command: ./setup_ohmyzsh.zsh
+      stdout: true
+      stderr: true
+
+- link:
+    ~/.zshrc:
+    ~/.zshenv:
+    ~/.bashrc:
+    ~/.gitconfig:
+    ~/.tmux.conf:
+    ~/.config/bat:
+    ~/.config/nvim:
+    ~/.config/kitty:
+    ~/.config/kmonad:
+    ~/.config/hypr:
+    ~/.config/waybar:
+    ~/.local/bin:
+
+- shell:
+    - command: ./packages_install_update.zsh
+      stdout: true
+      stderr: true
+      stdin: true
