@@ -189,6 +189,11 @@ RPROMPT='%*'
 
 export PATH=$HOME/bin:$PATH
 
+# Set up fzf keybindings and fuzzy completions
+eval "$(fzf --zsh)"
+
+export EDITOR=vim
+
 # Functions ===============================================================
 
 function mkcd() {
@@ -196,13 +201,16 @@ function mkcd() {
 }
 
 
-# fastfetch================================================================
+# App launch================================================================
 
 fastfetch
 
 figlet Devstack44
 
-# Set up fzf keybindings and fuzzy completions
-eval "$(fzf --zsh)"
+# Start up Tmux sesssion automatically when launching terminal ===============
 
-export EDITOR=vim
+[[ $- != *i* ]] && return
+
+if [ -z "$TMUX" ]; then
+  tmux new-session -A -s General-Shell
+fi
