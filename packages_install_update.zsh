@@ -16,11 +16,14 @@ echo "##########################################################################
 #Updates and upgrades the Arch linux local repositories
 sudo pacman -Syu
 
-#Install/Updates packages from a list.
-sudo pacman -S --noconfirm - < pkglist_native.txt
+#Install/Update packages from a list Pacman
+sudo pacman -S --noconfirm --needed - < pkglist_pacman.txt
 
 #Add any newly installed packages to pkglist_native.txt file
-pacman -Qqe > pkglist_native.txt
+pacman -Qqe > pkglist_pacman.txt
+
+#Install/Update packages from a list from the AUR
+sudo yay -S --needed - < pkglist_yay.txt
 
 #kmonad - change file permissions to run as user when using exec-once command
 sudo chmod u+s /usr/bin/kmonad
