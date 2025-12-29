@@ -41,6 +41,7 @@
   fg (cmd-button "sh -c 'hyprctl clients | grep -q \"class: chrome-figma.com__-Default\" && hyprctl dispatch workspace 8 || (hyprctl dispatch exec \"[workspace 8 silent] chromium --app=\"https://figma.com\"\" && hyprctl dispatch workspace 8)'")
   pas (cmd-button "sh -c 'hyprctl clients | grep -q \"class: 1password\" && hyprctl dispatch workspace 9 || (hyprctl dispatch exec \"[workspace 9 silent] 1password\" && hyprctl dispatch workspace 9)'")
   spy (cmd-button "sh -c 'hyprctl clients | grep -q \"class: spotify\" && hyprctl dispatch workspace 10 || (hyprctl dispatch exec \"[workspace 10 silent] spotify\" && hyprctl dispatch workspace 10)'")
+  obs (cmd-button "sh -c 'hyprctl clients | grep -q \"class: obsidian\" && hyprctl dispatch workspace 11 || (hyprctl dispatch exec \"[workspace 11 silent] obsidian\" && hyprctl dispatch workspace 11)'")
 )
 
 
@@ -65,7 +66,7 @@
 (deflayer open-apps
   _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _    _    _    _    _    _    _    @cd  _    @pas _    _    _
+  _    _    _    _    _    _    _    @obs @cd  _    @pas _    _    _
   _    _    @spy @fd  @ff  @gh  @fg  _    @kit _    _    _    _
   _    _    _    @chr @vs  _    _    _    _    _    _    _
   _    _    _    _              _              _    _    _    _    _    _
