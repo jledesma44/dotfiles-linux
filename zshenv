@@ -2,7 +2,7 @@ export PATH=/Users/jaimeledesma/.local/bin:$PATH
 
 
 # Path for Mosh-Server
-PATH=/opt/homebrew/bin/:PATH
+PATH=/usr/bin/:PATH
 
 
 function exists() {
