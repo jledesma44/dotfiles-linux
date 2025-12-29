@@ -9,14 +9,14 @@
     - ~/Writing
 
 - shell:
-    - command: ./setup-zsh.sh
+    - command: ./1.Scripts/setup-zsh.sh
       stdout: true
       stderr: true
       stdin: true
-    - command: ./setup_ohmyzsh.zsh
+    - command: ./1.Scripts/setup_ohmyzsh.zsh
       stdout: true
       stderr: true
-    - command: ./remove_old_configs.zsh
+    - command: ./1.Scripts/remove_old_configs.zsh
       stdout: true
       stderr: true
 
@@ -35,22 +35,22 @@
     ~/.local/bin:
 
 - shell:
-    - command: ./packages_install_update.zsh
+    - command: ./2.Package-lists/packages_install_update.zsh
       stdout: true
       stderr: true
       stdin: true
-    - command: ./setup_tpm.zsh
+    - command: ./1.Scripts/setup_tpm.zsh
       stdout: true
       stderr: true
-    - command: ./setup-github-ssh.zsh
-      stdout: true
-      stderr: true
-      stdin: true
-    - command: ./tailscale-services.zsh
+    - command: ./1.Scripts/setup-github-ssh.zsh
       stdout: true
       stderr: true
       stdin: true
-    - command: ./syncthing-services.zsh
+    - command: ./1.Scripts/tailscale-services.zsh
+      stdout: true
+      stderr: true
+      stdin: true
+    - command: ./1.Scripts/syncthing-services.zsh
       stdout: true
       stderr: true
       stdin: true
