@@ -110,10 +110,14 @@ alias tmuxconfig="nvim ~/.tmux.conf"
 alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
 alias kittycolors="kitten themes"
 alias sshconfig="nvim ~/.ssh/config"
-alias reloadzsh="source ~/.zshrc"
 alias nvimconfig="nvim .config/nvim"
 alias gitconfig="nvim ~/.gitconfig"
 
+# Aliases (app reload /source-file ) ====================================================================
+alias reloadzsh="source ~/.zshrc"
+alias killkmonad="sudo kill all kmonad"
+alias reloadmacbook12="sudo kmonad ~/.config/kmonad/config/macbook12.kbd &"
+alias reloadnuphy="sudo kmonad ~/.config/kmonad/config/nuphy-air-75.kbd &"
 
 # Aliases (quick cd/ directories) ================================
 
