@@ -33,6 +33,7 @@
     ~/.config/hypr:
     ~/.config/waybar:
     ~/.local/bin:
+    ~/Pictures:
 
 - shell:
     - command: ./2.Package-lists/packages_install_update.zsh
