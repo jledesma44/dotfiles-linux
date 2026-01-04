@@ -4,7 +4,7 @@
 # Allows interactive selection and copying of Gulp templates
 
 # Configuration
-TEMPLATES_DIR="/Users/jaimeledesma/Development/1.WebDev/6.Gulp-apps/Gulp-starter-templates"
+TEMPLATES_DIR="/home/jledesma44/Development/1.WebDev/6.Gulp-apps/Gulp-starter-templates"
 
 # Colors for output
 RED='\033[0;31m'
