@@ -192,12 +192,18 @@ RPROMPT='%*'
 
 # Add locations to $PATH Variables=========================================
 
+# path to Bin
 export PATH=$HOME/bin:$PATH
 
-# Set up fzf keybindings and fuzzy completions
-eval "$(fzf --zsh)"
+# path to .local/bin
+export PATH=$HOME/.local/bin:$PATH
+
+# opencode
+export PATH=$HOME/.opencode/bin:$PATH
 
 export EDITOR=vim
+
+
 
 # Functions ===============================================================
 
@@ -205,6 +211,8 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
+# Set up fzf keybindings and fuzzy completions
+eval "$(fzf --zsh)"
 
 # App launch================================================================
 
@@ -220,5 +228,3 @@ if [ -z "$TMUX" ]; then
   tmux new-session -A -s General-Shell
 fi
 
-# opencode
-export PATH=/home/jledesma44/.opencode/bin:$PATH
